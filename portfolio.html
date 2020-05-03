@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio | Alexander Zhong</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="./assets/css/nav.css" type="text/css" rel="stylesheet">
+	<link href="./assets/css/portfolio.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> -->
+
+	<!-- JS libraries -->
+	<!-- <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script> -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer></script>
+	<script src="assets/js/index.js" defer></script>
+
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+</head>
+<body>
+	<div class="navbar">
+		<div onclick="openNav()" class="nav-header">
+			<img src="./assets/img/navbar_icon.png" height="40" width="36" id="nav-head-icon"></img>
+			<h1 id="nav-head">Navigation</h1>
+		</div>
+		<a href="./index.html">Home</a>
+		<a href="./about.html">About</a>
+		<a id="active-page" onclick="openNav()">Portfolio</a>
+		<a href="./contact.html">Contact</a>
+	</div>
+	<div class="main-container modal">
+		<span id="outside-modal" class="off-container-close"></span>
+		<header>
+			<img src="./assets/img/navbar_icon.png" onclick="openNav()" height="50" width="45" style="margin-right: 20px; cursor: pointer;"></img>
+			<h1>Portfolio</h1>
+			<img id="help" src="./assets/img/help.png" title="help" width="25px" height="25px"></img>
+        </header>
+        <div class="portfolio-card">
+			<img src="./assets/img/AjendaScreenshot1.PNG"/>
+			<div class="text-box">
+				<p>“Ajenda” is a productivity app allows users to optimize event scheduling (can be found in GitHub repository and website).
+					• Retrieved weather and driving distance information using OpenWeatherMap API and Google Maps API.
+					• Designed interactive UI with native and non-native elements, including a fully customizable calendar view.
+					• Incorporated full calendar functionality, along with persistent storage to store events and event information.
+					• Utilized: Java, OpenWeatherMap API and Google Maps API, Local Persistent Data, Android Dev.
+					</p>
+			</div>
+        </div>
+        <div class="portfolio-card">
+			<img src="./assets/img/scotty_security.png"/>
+			<div class="text-box">
+				<p>Built cross-platform mobile app that gives users holistic access to CMU’s campus security resources.
+					• Features include location tracking, news notifications, emergency whistle, contacts page, and audio recording.
+					• Designed RESTful APIs for storing user locations in an online database and sending information to administrator users.
+					• Utilized: Node.js, HTML, CSS, Apache Cordova, RESTful APIs, Android Studio, Backend, Google Maps API.</p>
+					<a href="https://www.youtube.com/watch?v=qkdmO3_Z-Rs">Demonstration</a>
+			</div>
+        </div>
+        <div class="portfolio-card">
+			<img src="./assets/img/CD39L3Model.jpg"/>
+			<div class="text-box">
+				<p>Engineered and functionally studied multiple forms of therapeutic pancreatic enzyme CD39L3 in a research project.
+					• Published first-authored paper in “Purinergic Signaling” and presented research findings to Harvard Medical School faculty.
+					• Awarded “Regeneron Science Talent Search National Semifinalist”.
+					• Analyzed PNPLA3 (gene) transcription using RNA detecting software for coauthored paper published in the JHEP Reports.
+					• Programmed website for calculating BEAAA score using html and php and coauthored paper published in “Gastroenterology”
+					journal.
+					</p>
+			</div>
+        </div>
+	</div>
+</body>
+</html>

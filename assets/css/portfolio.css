@@ -1,0 +1,45 @@
+.portfolio-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: calc(100vw - 60px);
+    margin-left: 30px;
+    height: 280px;
+    margin-top: 20px;
+}
+
+.portfolio-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.portfolio-card img {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.text-box {
+    display: inline-block;
+    width: calc(100vw - 300px);
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 240px;
+}
+
+.port-active {
+    height: 500px;
+}
+
+p {
+    /* height: min(240px, auto); */
+    max-height: 240px;
+    overflow: hidden;
+}
+
+/* p {
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+} */
