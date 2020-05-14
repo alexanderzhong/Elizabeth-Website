@@ -38,6 +38,33 @@ p {
     overflow: hidden;
 }
 
+.expanded {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.expanded p {
+    height: auto;
+    max-height: none;
+}
+
+.expanded img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expanded .text-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    padding-bottom: 20px;
+}
+
 /* p {
     display: inline;
     position: relative;
