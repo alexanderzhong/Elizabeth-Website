@@ -21,7 +21,7 @@ function openLinkedIn() {
 }
 
 function openResume() {
-    window.open("assets/documents/SophomoreResumeFinal.pdf");
+    window.open("assets/documents/JuniorResumeSWE.pdf");
     // window.location.href="assets/documents/SophomoreResumeFinal.pdf";
 }
 
