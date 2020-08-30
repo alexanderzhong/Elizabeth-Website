@@ -1,0 +1,26 @@
+header {
+  background-image: url("../img/keyboard.jpg");
+}
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  font-size: 20px;
+  /* width: 30px; */
+}
+
+span {
+  text-decoration: underline;
+}

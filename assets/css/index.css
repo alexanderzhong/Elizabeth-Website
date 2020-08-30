@@ -5,7 +5,7 @@
   margin-right: 30px; */
   padding-top: 20vh;
   width: 100vw;
-  height: calc(100vh - 90px);
+  height: 100%;
   /* color: white; */
 }
 
@@ -16,8 +16,9 @@
   color: black;
   text-align: center;
   margin: auto;
-  font-size: min(50px, 6vw);
+  font-size: min(100px, 12vw);
   font-weight: 400;
+  font-family: "Dancing Script", serif;
 }
 
 #main-content-container h1 {
@@ -26,8 +27,9 @@
   /* margin-left: 10%; */
   text-align: center;
   margin: auto;
-  font-size: min(100px, 12vw);
+  font-size: min(50px, 6vw);
   font-weight: 400;
+  font-family: "Dancing Script", serif;
 }
 
 .soc-button {
@@ -97,7 +99,7 @@
 h3 {
   /* font-family: "Manrope"; */
   color: white;
-  font-size: 40px;
+  font-size: 100px;
   font-weight: 300;
 }
 

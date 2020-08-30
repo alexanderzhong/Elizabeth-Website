@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="./assets/css/nav.css" type="text/css" rel="stylesheet" />
     <link href="./assets/css/about.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/header.css" type="text/css" rel="stylesheet" />
     <link
       rel="icon"
       type="image/png"
@@ -22,6 +23,10 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
       rel="stylesheet"
     />
     <!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> -->
@@ -57,6 +62,7 @@
       src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
       crossorigin
     ></script>
+    <script src="assets/js/index.js" defer></script>
   </head>
   <body>
     <div class="navbar">
@@ -66,31 +72,20 @@
       <!-- </div> -->
       <a href="./index.html">Home</a>
       <a id="active-page" onclick="openNav()">About</a>
-      <a href="./portfolio.html">Portfolio</a>
-      <a href="./contact.html">Contact</a>
+      <a href="./community.html">Community</a>
+      <a href="./music.html">Music</a>
+      <a href="./personal.html">Personal</a>
+      <a href="./research.html">Research</a>
     </div>
     <div class="main-container modal">
       <span id="outside-modal" class="off-container-close"></span>
-      <header>
+      <header id="header">
         <i class="fas fa-bars slide-icon" onclick="openNav()"></i>
         <!-- <img src="./assets/img/navbar_icon.png" onclick="openNav()" height="50" width="45" style="margin-right: 20px; cursor: pointer;"></img> -->
-        <h1>About</h1>
         <!-- <img id="help" src="./assets/img/help.png" width="25px" height="25px" title="Help"></img> -->
+        <h2>About</h2>
       </header>
-      <div class="about-container">
-        <img id="profile" src="./assets/img/profile.jpg" />
-        <p>
-          Hi! My name is Alex Zhong! I'm a computer science major at Carnegie
-          Mellon University. My background is mostly in Java and object-oriented
-          programming, but over the years, I've played around with stuff on my
-          own and in class, and learned some new stuff, including Python, C, JS,
-          HTML, CSS, SML, and Node.js. I'm interested in new technologies
-          including cloud computing and artificial intelligence and I'm hoping
-          to join a PhD program after I graduate. I've played piano since I was
-          3 years old, and I've played violin for about 12 years. I'll probably
-          post a recording of myself on here when I make one.
-        </p>
-      </div>
+      <div class="about-container"></div>
     </div>
   </body>
 </html>

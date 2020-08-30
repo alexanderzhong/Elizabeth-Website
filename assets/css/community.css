@@ -1,0 +1,44 @@
+header {
+  background-image: url("../img/wayland.jpg");
+}
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  font-size: 20px;
+  /* width: 30px; */
+}
+
+span {
+  text-decoration: underline;
+}
+
+li {
+  padding: 20px;
+  display: flex;
+}
+
+.item-image {
+  max-width: 250px;
+  max-height: 250px;
+  width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.item-info {
+  display: inline-block;
+  width: 100%;
+}

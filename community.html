@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact | Alexander Zhong</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/nav.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/community.css" type="text/css" rel="stylesheet" />
+    <link href="./assets/css/header.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/img/favicon.png"
+      sizes="64x64"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> -->
+
+    <!-- JS libraries -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
+      defer
+    ></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      defer
+    ></script>
+
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- <div onclick="openNav()" class="nav-header"> -->
+      <!-- <img src="./assets/img/navbar_icon.png" height="40" width="36" id="nav-head-icon"></img> -->
+      <h1 id="nav-head" onclick="openNav()">Navigation</h1>
+      <!-- </div> -->
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a id="active-page" onclick="openNav()">Community</a>
+      <a href="./music.html">Music</a>
+      <a href="./personal.html">Personal</a>
+      <a href="./research.html">Research</a>
+    </div>
+    <div class="main-container modal">
+      <span id="outside-modal" class="off-container-close"></span>
+      <header id="header">
+        <i class="fas fa-bars slide-icon" onclick="openNav()"></i>
+        <!-- <img src="./assets/img/navbar_icon.png" onclick="openNav()" height="50" width="45" style="margin-right: 20px; cursor: pointer;"></img> -->
+        <!-- <img id="help" src="./assets/img/help.png" width="25px" height="25px" title="Help"></img> -->
+        <h2>Community</h2>
+      </header>
+      <div>
+        <ul>
+          <li>
+            <img class="item-image" src="assets/img/placeholder.jpg"></img>
+            <div class="item-info">
+              <h1>Math Team</h1>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+                incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis 
+                autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+          </li>
+          <li>
+            <img class="item-image" src="assets/img/placeholder.jpg"></img>
+            <div class="item-info">
+              <h1>Math Team</h1>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+                incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis 
+                autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+          </li>
+          <li>
+            <img class="item-image" src="assets/img/placeholder.jpg"></img>
+            <div class="item-info">
+              <h1>Math Team</h1>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+                incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis 
+                autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
